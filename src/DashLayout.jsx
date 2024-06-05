@@ -1,4 +1,4 @@
-import Content from "./Content";
+import Content from "./Content/Content";
 import NavBar from "./NavBar/NavBar";
 import SideBar from "./SideBar/SideBar";
 
