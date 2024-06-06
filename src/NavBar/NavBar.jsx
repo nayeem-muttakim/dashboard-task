@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="navbar bg-base-100 px-8  py-7">
+    <nav className="navbar bg-base-100 px-8  py-7 drop-shadow-lg">
       <div className="navbar-start">
         {/* <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -103,15 +103,15 @@ const NavBar = () => {
       <div className="flex-1 hidden lg:flex gap-10">
         <div className="form-control relative">
           <img
-            width={20}
-            className="absolute top-4 left-3"
+            width={15}
+            className="absolute top-5 left-4"
             src="/search.png"
             alt=""
           />
           <input
             type="text"
-            placeholder="  |  Search Here......"
-            className="input bg-[#F6F8FC] w-20  text-lg py-7 px-8 font-medium md:w-auto"
+            placeholder="|  Search Here......"
+            className="input bg-[#F6F8FC] w-20  text-lg py-7 px-10 font-medium md:w-auto"
           />
         </div>
 
