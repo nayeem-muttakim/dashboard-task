@@ -24,9 +24,9 @@ const DashEcom = () => {
         </div>
       </div>
       {/* stats */}
-      <div className="flex items-center gap-8">
+      <div className="flex items-center gap-8 my-8 ">
         {/* left stats */}
-        <div className="my-8 ">
+        <div>
           {/* cards */}
           <CardStats />
           {/* table */}

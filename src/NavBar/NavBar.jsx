@@ -42,7 +42,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div> */}
-        <div className="hidden lg:flex">
+        <div className="flex">
           <ul className="menu menu-horizontal gap-2 px-1 text-lg font-semibold bg-inherit">
             <li>
               <details>
@@ -100,7 +100,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      <div className="flex-1 hidden lg:flex gap-10">
+      <div className="flex-1 flex gap-10">
         <div className="form-control relative">
           <img
             width={15}
@@ -137,9 +137,6 @@ const NavBar = () => {
           </button>
         </div>
       </div>
-      {/* <div className="navbar-end">
-    
-      </div> */}
     </nav>
   );
 };

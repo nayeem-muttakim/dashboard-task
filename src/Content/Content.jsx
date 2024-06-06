@@ -6,7 +6,7 @@ const Content = () => {
   return (
     <section className="bg-[#F6F8FC] h-[87vh] px-9 py-10">
       {/* floating bar */}
-      <div className="join join-vertical w-16 fixed right-0 top-1/3">
+      <div className="join join-vertical w-16 fixed right-0 top-1/3 z-10">
         <button className="btn join-item text-2xl text-[#9886F4]">
           <img src="/cup.png" alt="" />
         </button>

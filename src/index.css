@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-:is(#sidebar, #sidebar2):has(a.active) #icon {
+:is(#sidebar, #sidebar2,#sidebar3,#sidebar4):has(a.active) :is(#icon,#icon2) {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset,
     0px 0px 8px rgba(82, 168, 236, 0.6);
   background-color: #5c61f2;

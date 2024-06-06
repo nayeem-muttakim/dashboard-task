@@ -12,7 +12,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const SideBar = () => {
   return (
-    <aside className="bg-[#171829] h-screen w-1/6">
+    <aside className="bg-[#171829] h-auto w-1/6">
       {/* sidebar header */}
       <span className="text-4xl  text-white font-bold px-6 py-9 border-b-2 border-[#202131] flex justify-between items-center">
         Tivo{" "}
@@ -54,7 +54,7 @@ const SideBar = () => {
                   </div>
                 )}
               </NavLink>
-              <NavLink to="/dash-ecom">
+              <NavLink to="dash-ecom">
                 {({ isActive, isPending, isTransitioning }) => (
                   <div
                     className={
@@ -72,22 +72,22 @@ const SideBar = () => {
             </div>
           </div>
         </div>
-        {/* widgets */}
 
-        <div id="sidebar" className="collapse collapse-arrow bg-inherit">
+        {/* widgets */}
+        <div id="sidebar3" className="collapse collapse-arrow bg-inherit">
           <input type="radio" name="my-accordion-2" />
-          <NavLink className="collapse-title" to="/widgets">
+          <NavLink className="collapse-title" to='widgets'>
             <div className="flex items-center gap-5">
               <HiMiniComputerDesktop
-                id="icon"
+                id="icon2"
                 className="w-10 h-10 p-2 rounded-md "
               />
               <span>Widgets</span>
             </div>
           </NavLink>
 
-          <div id="sidebar2" className="collapse-content grid gap-4">
-            <NavLink to="/widgets">
+          <div id="sidebar4" className="collapse-content grid gap-4">
+            <NavLink to="widgets/1">
               {({ isActive, isPending, isTransitioning }) => (
                 <div
                   className={
@@ -102,7 +102,7 @@ const SideBar = () => {
                 </div>
               )}
             </NavLink>
-            <NavLink to="/charts">
+            <NavLink to="charts">
               {({ isActive, isPending, isTransitioning }) => (
                 <div
                   className={
@@ -119,6 +119,7 @@ const SideBar = () => {
             </NavLink>
           </div>
         </div>
+
         {/* page layout */}
         <div className="collapse collapse-arrow bg-inherit">
           <input type="radio" name="my-accordion-2" />

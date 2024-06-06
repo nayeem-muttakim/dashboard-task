@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import DashLayout from "./DashLayout";
 import DashEcom from "./Content/DashEcom/DashEcom";
+import Charts from "./Content/Charts/Charts";
 
 const routes = createBrowserRouter([
   {
@@ -11,16 +12,20 @@ const routes = createBrowserRouter([
     element: <DashLayout />,
     children: [
       {
-        path: "/dash-ecom",
+        path: "dash-ecom",
         element: <DashEcom />,
       },
       {
-        path: "/widgets",
+        path: "widgets",
         element: <div></div>,
       },
       {
-        path: "/charts",
-        element: <div>charts</div>,
+        path: "widgets/1",
+        element: <div></div>,
+      },
+      {
+        path: "charts",
+        element: <Charts />,
       },
     ],
   },
