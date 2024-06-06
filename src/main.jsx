@@ -14,6 +14,14 @@ const routes = createBrowserRouter([
         path: "/dash-ecom",
         element: <DashEcom />,
       },
+      {
+        path: "/widgets",
+        element: <div></div>,
+      },
+      {
+        path: "/charts",
+        element: <div>charts</div>,
+      },
     ],
   },
 ]);
